@@ -1,6 +1,6 @@
 # Kobo 32X (RAM Cartridge Edition)
 This is a specialized build of the Kobo Deluxe port for the Sega 32X. Unlike standard Sega CD / 32XCD releases, 
-this version is engineered specifically to execute entirely the Sega CD hardware for audio and Sub-CPU processing.
+this version is engineered specifically to execute entirely from the Sega CD hardware for audio, 32X(SH2) and Sub-CPU processing.
 Game assets are stored on the RAM cartridge while still fully interfacing with SEGA CD for CDDA audio.
 
 ## Reverse Engineering the Boot Sequence
