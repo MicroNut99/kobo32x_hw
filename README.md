@@ -4,7 +4,7 @@ this version is engineered specifically to execute entirely the Sega CD hardware
 Game assets are stored on the RAM cartridge while still fully interfacing with SEGA CD for CDDA audio.
 
 ## Reverse Engineering the Boot Sequence
-Getting a 32XCD title to boot and stream assets cleanly from a CD requires understanding and writing standard Sega CD boot procedures. 
+Getting a 32XCD title to boot and stream assets cleanly from a CD requires understanding and writing standard Sega CD32X boot procedures. 
 To accomplish this, the initialization sequence from the original Sega 32XCD release of *Night Trap* was heavily analyzed and reverse-engineered.
 This effort was a collaborative human-AI undertaking. Both **Gemini** and **Claude** were utilized extensively to analyze the raw disassembly, 
 trace the 68000/SH2 handoffs, document the *Night Trap* boot process, and write a custom initialization sequence that stabilizes the hardware.
